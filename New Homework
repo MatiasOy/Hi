@@ -1,0 +1,11 @@
+class Movie{
+	constructor(type, duration, rating) {
+		this.type = type;
+		this.duration = duration;
+		this.rating = rating;
+	}
+
+	getName() {
+		retrun this.type + "" "" + this.duration;
+	}
+}
